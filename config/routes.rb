@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   namespace :admin do
     root "users#index", as: "root"
     resources :users, only: [:index, :destroy]
+    resources :book_tours, only: [:index, :destroy]
   end
   resources :tours, only: [:index, :show]
   resources :book_tours

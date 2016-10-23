@@ -1,0 +1,9 @@
+<tr>
+  <td><%= link_to user.email, [:admin, user] %></td>
+  <td>
+    <%= link_to [:admin, book_tour], method: :delete,
+      data: {confirm: t("admin.book_tour.destroy_confirm")} do %>
+      <span class="glyphicon glyphicon-trash"></span>
+    <% end %>
+  </td>
+</tr>

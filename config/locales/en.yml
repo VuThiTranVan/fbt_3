@@ -33,7 +33,7 @@ en:
   hotel: "Hotel"
   new: "New"
   sign_in: "Sign in"
-  sign_in: "Sign up"
+  sign_up: "Sign up"
   service: "Service"
   welcome_travel: "Welcome To Our Travel"
   welcome_travel_desc: "The Best Way To Be Lost"
@@ -108,3 +108,9 @@ en:
   book_tour:
     not_found: "Not found"
     failed: "Book tour failed"
+  admin:
+    book_tour:
+      tilte: "Book tour list"
+      message_success: "Book tour deleted"
+      message_failed: "Delete book tour failed"
+      destroy_confirm: "You sure??"
