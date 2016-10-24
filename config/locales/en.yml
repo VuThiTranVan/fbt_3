@@ -33,7 +33,7 @@ en:
   hotel: "Hotel"
   new: "New"
   sign_in: "Sign in"
-  sign_in: "Sign up"
+  sign_up: "Sign up"
   service: "Service"
   welcome_travel: "Welcome To Our Travel"
   welcome_travel_desc: "The Best Way To Be Lost"
@@ -105,6 +105,29 @@ en:
     usd: " USD"
   book: "Book"
   Book_tour: "Book tour"
+  submit: "Submit"
+  btn_update: "Update"
   book_tour:
     not_found: "Not found"
     failed: "Book tour failed"
+  admin:
+    message: "You not is admin"
+    title: "Admin"
+    manager:
+      title: "Management"
+      category_tour:
+        title: "Category tour management"
+        new_category_tour: "New category tour"
+        update_category_tour: "Update category tour"
+        destroy_confirm: "Are you sure delete tthis category tour"
+        type: "Title"
+        new: "New"
+        update: "Update"
+        delete: "Delete"
+        list_category_tour: "List category tour"
+      tour:
+        title: "Tour management"
+      category_review:
+        title: "Category review management"
+      review:
+        title: "Review management"
