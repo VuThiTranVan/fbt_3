@@ -49,10 +49,13 @@ group :development do
 end
 
 group :test do
+  gem "rspec-activemodel-mocks"
+  gem "capybara"
+  gem "rspec-rails"
+  gem "factory_girl_rails"
   gem "shoulda-matchers", "~> 3.0", require: false
   gem "database_cleaner", "~> 1.5"
   gem "faker"
-  gem "capybara"
   gem "simplecov", require: false
   gem "rails-controller-testing"
   gem "rspec-activemodel-mocks"
